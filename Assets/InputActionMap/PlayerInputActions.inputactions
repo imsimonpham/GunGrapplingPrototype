@@ -1,0 +1,62 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Righthand",
+            "id": "0f871fcf-0e7a-4f48-be07-026fe64b9a8d",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "775af0f5-e4cb-4158-b6f3-ef80411d12bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7a8f06d7-7655-4ab2-bec3-58288f3b05bf",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Lefthand",
+            "id": "064d96c3-8944-439f-b5b2-fd4698a92776",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "6ca9b82c-9b4e-4d04-8e74-7f9af2451a30",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "caa57451-a483-4e61-840d-5c5ac2cac94e",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
